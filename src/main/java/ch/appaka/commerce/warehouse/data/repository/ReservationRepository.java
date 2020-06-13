@@ -9,5 +9,5 @@ import java.sql.Date;
 
 @Repository
 public interface ReservationRepository extends CrudRepository<Reservation, Long> {
-    Iterable<Reservation> findReservationByReservationDate(Date date);
+    Iterable<Reservation> findReservationByDate(Date date);
 }

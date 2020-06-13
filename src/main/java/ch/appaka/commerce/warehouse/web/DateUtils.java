@@ -1,7 +1,5 @@
 package ch.appaka.commerce.warehouse.web;
 
-import javassist.Loader;
-
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -9,7 +7,7 @@ import java.util.Date;
 
 public class DateUtils {
 
-    private static final DateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-mm-dd");
+    private static final DateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd");
 
     public static Date createDateFromDateString(String dateString) {
         Date date = null;
