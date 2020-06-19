@@ -18,6 +18,10 @@ target/
 *.iws
 *.iml
 *.ipr
+/gradlew.bat
+/gradlew
+/.gradle
+/gradle
 
 ### NetBeans ###
 /nbproject/private/
